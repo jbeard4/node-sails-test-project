@@ -6,7 +6,15 @@
 module.exports.policies = {
 
 	// Default policy (allow public access)
-	'*': true
+	//'*': true
+
+    user : {
+		'*': 'authenticated'
+    },
+
+    session : {
+        login : true
+    }
 
 	/** Example mapping: 
 	someController: {

@@ -43,4 +43,4 @@ nbproject
 config/local.js
 
 *.sw*
-
+node_modules

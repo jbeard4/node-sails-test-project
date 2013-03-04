@@ -4,6 +4,7 @@
 ---------------------*/
 module.exports = {
 	
+    migrate : 'alter',
 	attributes	: {
 
 		// Simple attribute:
@@ -18,7 +19,8 @@ module.exports = {
         age: 'INTEGER',
         birthDate: 'DATE',
         phoneNumber: 'STRING',
-        emailAddress: 'STRING'
+        emailAddress: 'STRING',
+        hashedPassword: 'STRING'
 	}
 
 };
